@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"/>
+    <link rel="stylesheet" href="assets/css/common.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+
+<body>
+<div class="overlay"></div>
+<div class="go-top"></div>
+<header class="container">
+    <nav>
+        <div class="header-logo">
+            <a href="index.html">
+                <svg enable-background="new 0 0 512.008 512.008" viewBox="0 0 512.008 512.008"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path
+                                d="m222.874 429.953c-105.051-6.566-169.53-62.628-180.545-72.928-1.114-1.042-2.578-1.622-4.103-1.622h-14.149c-10.862 0-18.809-10.29-16.025-20.789 42.915-161.858 144.952-250.882 155.885-260.055.636-.534 1.148-1.197 1.516-1.941 23.303-47.166 66.542-61.215 78.896-64.352 2.051-.521 4.217.078 5.714 1.575l67.32 67.32c2.582 2.582 2.278 6.852-.643 9.043l-56.101 42.076c-2.584 1.938-6.238 1.483-8.268-1.03l-9.564-11.843c-1.835-2.272-5.035-2.899-7.583-1.472-5.504 3.082-16.358 7.878-32.357 9.239-2.83.241-5.091 2.463-5.417 5.284l-13.502 116.984c-.521 4.518 3.98 7.973 8.196 6.266 12.129-4.909 35.115-12.272 63.865-12.272 41.685 0 71.256 14.735 83.33 22.021 3.142 1.896 7.218.561 8.63-2.827 21.859-52.455 80.62-83.654 150.392-85.385 3.37-.084 6.149 2.635 6.149 6.006v319.251c0 3.314-2.686 6-6 6h-39.182c-45.184 0-84.559-37.62-105.181-93.28-1.244-3.357-5.106-4.923-8.304-3.312-15.27 7.696-59.039 26.039-122.969 22.043z"
+                                fill="#ffdaaa"/>
+                        <path
+                                d="m222.874 429.953c-105.051-6.566-169.53-62.628-180.545-72.928-1.114-1.042-2.578-1.622-4.103-1.622h-14.149c-10.862 0-18.809-10.29-16.025-20.789 42.915-161.858 144.952-250.882 155.885-260.055.636-.534 1.148-1.197 1.516-1.941 23.303-47.166 66.542-61.215 78.896-64.352 2.051-.521 4.217.078 5.714 1.575l67.32 67.32c2.582 2.582 2.278 6.852-.643 9.043l-56.101 42.076c-2.584 1.938-6.238 1.483-8.268-1.03l-9.564-11.843c-1.835-2.272-5.035-2.899-7.583-1.472-5.504 3.082-16.358 7.878-32.357 9.239-2.83.241-5.091 2.463-5.417 5.284l-13.502 116.984c-.521 4.518 3.98 7.973 8.196 6.266 12.129-4.909 35.115-12.272 63.865-12.272 41.685 0 71.256 14.735 83.33 22.021 3.142 1.896 7.218.561 8.63-2.827 21.859-52.455 80.62-83.654 150.392-85.385 3.37-.084 6.149 2.635 6.149 6.006v319.251c0 3.314-2.686 6-6 6h-39.182c-45.184 0-84.559-37.62-105.181-93.28-1.244-3.357-5.106-4.923-8.304-3.312-15.27 7.696-59.039 26.039-122.969 22.043z"
+                                fill="#ffdaaa"/>
+                        <g fill="#ffbe8a">
+                            <path
+                                    d="m294.382 77.161c2.582 2.582 2.278 6.852-.643 9.043l-46.408 34.806 5.039 6.24c2.029 2.513 5.684 2.968 8.268 1.03l56.101-42.076c2.921-2.191 3.224-6.461.643-9.043l-67.32-67.32c-1.497-1.497-3.663-2.096-5.714-1.575-3.07.78-8.051 2.235-14.157 4.704z"/>
+                            <path
+                                    d="m498.359 173.246c-6.503.161-12.909.58-19.2 1.247 1.425 1.098 2.349 2.819 2.349 4.76v319.251c0 3.314-2.686 6-6 6h23c3.314 0 6-2.686 6-6v-319.252c0-3.371-2.78-6.09-6.149-6.006z"/>
+                            <path
+                                    d="m190.76 121.61c-3.32.677-6.944 1.228-10.894 1.564-2.83.241-5.091 2.463-5.417 5.284l-13.502 116.984c-.522 4.518 3.98 7.973 8.196 6.266 3.875-1.568 8.864-3.387 14.789-5.136-.026-.369-.03-.744.014-1.13l13.218-114.525.284-2.459c.021-.179.071-.348.107-.522z"/>
+                        </g>
+                        <path
+                                d="m116.413 123.8 73.96 65.967 7.076-61.309c.153-1.327.746-2.512 1.614-3.43l-34.254-51.381c-.257.333-.547.64-.871.913-4.392 3.683-23.479 20.256-47.525 49.24z"
+                                fill="#19cffc"/>
+                        <path
+                                d="m197.917 126.775c.028-.065.047-.134.078-.197.272-.575.637-1.093 1.068-1.55l-3.095-4.643c-4.607 1.24-9.974 2.267-16.102 2.789-2.83.241-5.091 2.463-5.417 5.284l-4.93 42.71 20.853 18.6 7.076-61.309c.039-.338.108-.666.201-.984.071-.244.169-.472.268-.7z"
+                                fill="#27ade2"/>
+                    </g>
+                    <path
+                            d="m504.508 165.67c-38.888 0-74.869 8.751-104.053 25.308-27.362 15.523-47.511 37.264-58.761 63.252-24.336-14.325-54.468-22.293-85.686-22.293-22.789 0-44.619 4.076-64.322 11.872l7.395-64.074 5.679-49.205c14.038-1.324 24.799-4.92 33.024-9.406l12.39 15.341c2.537 3.142 7.106 3.712 10.335 1.288l66.267-49.7c1.739-1.305 2.827-3.3 2.981-5.469.154-2.168-.641-4.297-2.178-5.835l-74.55-74.55c-1.73-1.73-4.196-2.503-6.608-2.082-2.407.426-58.799 11.009-87.555 68.904-6.028 5.068-31.334 27.245-61.32 66.421-31.012 40.513-72.965 107.61-96.726 197.186-1.935 7.296-.407 14.909 4.193 20.888 4.589 5.966 11.539 9.388 19.065 9.388h13.552c6.149 5.708 24.27 21.388 53.273 37.054 1.133.612 2.354.902 3.558.902 2.667 0 5.249-1.426 6.605-3.936 1.969-3.645.61-8.194-3.034-10.163-16.308-8.809-29.028-17.68-37.817-24.488 2.644-1.159 4.493-3.796 4.493-6.868 0-4.143-3.358-7.5-7.5-7.5h-16.567-16.564c-2.833 0-5.449-1.288-7.176-3.534-1.738-2.258-2.314-5.136-1.583-7.896 23.067-86.96 63.75-152.135 93.817-191.497 2.772-3.628 5.502-7.098 8.187-10.432l65.157 58.196-6.746 58.45c-2.173 1.163-4.324 2.357-6.425 3.621-3.55 2.134-4.698 6.742-2.564 10.292 2.135 3.551 6.742 4.699 10.292 2.564 22.234-13.367 50.28-20.73 78.971-20.73 36.254 0 70.716 11.616 94.549 31.87 1.41 1.199 3.136 1.785 4.853 1.785 2.125 0 4.235-.898 5.719-2.644 2.683-3.156 2.298-7.889-.858-10.571-1.891-1.607-3.847-3.16-5.852-4.668 19.537-48.267 74.369-79.77 142.59-81.921v316.215h-37.682c-40.923 0-78.25-33.967-98.401-89.074 14.893-9.18 28.289-20.418 40.069-33.635 8.363 13.843 13.181 30.057 13.181 47.376 0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5c0-23.811-7.828-45.827-21.042-63.615-.284-.478-.623-.929-1.019-1.343-19.557-25.482-50.309-41.943-84.839-41.943h-33.133c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h33.133c27.846 0 52.837 12.452 69.704 32.077-12.497 14.587-26.936 26.581-43.259 35.973-.349.158-.676.348-.989.553-33.662 19.066-75.263 27.163-124.389 24.095-33.77-2.111-66.585-9.682-97.534-22.501-3.827-1.59-8.214.232-9.799 4.059s.232 8.214 4.059 9.799c32.481 13.455 66.913 21.399 102.338 23.614 6.973.436 13.815.653 20.536.653 32.408 0 61.829-5.062 87.676-15.107 5.867-2.28 11.556-4.825 17.069-7.62 22.604 59.846 64.812 96.638 111.639 96.638h45.182c4.143 0 7.5-3.357 7.5-7.5v-331.334c0-4.143-3.358-7.5-7.5-7.5zm-259.129-149.905 65.477 65.477-53.56 40.17-7.293-9.03c10.263-9.552 13.045-19.341 13.251-20.113 1.067-4.003-1.301-8.153-5.304-9.221-4.001-1.063-8.1 1.272-9.167 5.274-.178.609-2.845 9.128-13.329 16.57-.248.156-.492.324-.725.512-.002.001-.003.003-.004.004-7.073 4.816-17.529 9.082-32.853 10.312l-28.315-42.472c21.62-41.033 59.895-54.261 71.822-57.483zm-118.475 107.225c15.868-18.557 29.128-31.305 36.478-37.963l26.877 40.315-5.674 49.165z"/>
+                </svg>
+            </a>
+        </div>
+        <ul class="header-navbar header-navbar-menu">
+            <li><a href="product.html">Product</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li>
+                <a class="header-last-link" href="login.html">
+                    <button class="header-btn">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                             height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z">
+                            </path>
+                        </svg>
+                        <p>Login</p>
+                    </button>
+                </a>
+            </li>
+        </ul>
+        <div class="header-navbar header-navbar-icon d-lg-none">
+            <button class="header-bars">
+                <svg class="bars-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                            d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/>
+                </svg>
+                <svg class="cross-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                            d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="spinner-wrapper" id="loading">
+        <div class="spinner"></div>
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <div class="hero-section-bg">
+        <svg viewBox="0 0 250 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                    d="M948 0V926C948 926 921.22 835.998 831.777 812.426C770.719 796.355 724.122 807.605 666.813 816.712C595.312 828.23 515.777 792.604 508.278 719.478C500.512 642.334 525.149 609.118 516.58 510.546C510.956 445.187 457.664 376.346 367.952 370.989C284.936 366.168 253.068 330.81 226.288 264.38C199.241 197.415 226.823 114.377 166.302 72.8585C103.905 30.0006 45.523 77.4122 1.7345e-05 0H948Z"
+                    fill="url(#paint0_linear_294_778)"/>
+            <defs>
+                <linearGradient id="paint0_linear_294_778" x1="340.54" y1="-29.7182" x2="948.355" y2="897.341"
+                                gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#e83e8d"/>
+                    <stop offset="1" stop-color="#e83e8d"/>
+                </linearGradient>
+            </defs>
+        </svg>
+        <!--        <div id="particles-js"></div>-->
+    </div>
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Lorem ipsum dolor
+                    <br/>
+                    <span id="typewriter"></span>
+                    <br/>
+                    sit amet, consectetur
+                </h1>
+                <p class="main-para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br/>
+                    Aliquam, animi culpa dicta expedita illum, impedit, in ipsum <br/>
+                    magnam mollitia nemo odio odit omnis tenetur voluptatem <br/>
+                    voluptatum? Aliquam dolores non quasi!
+                </p>
+                <div class="hero-btns">
+                    <button class="main-btn outline">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512"
+                             height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
+                            </path>
+                        </svg>
+                        Button Outlet
+                    </button>
+                    <button class="main-btn">Button Active</button>
+                </div>
+                <div class="hero-wrapper">
+                    <div class="hero-wrapper-item">
+                        <div class="hero-wrapper-icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                 height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="hero-wrapper-content">
+                            <h6>Heading</h6>
+                            <p class="main-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
+                                dolorum fugit harum maiores.</p>
+                        </div>
+                    </div>
+                    <div class="hero-wrapper-item">
+                        <div class="hero-wrapper-icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                 height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="hero-wrapper-content">
+                            <h6>Heading</h6>
+                            <p class="main-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
+                                dolorum fugit harum maiores.</p>
+                        </div>
+                    </div>
+                    <div class="hero-wrapper-item">
+                        <div class="hero-wrapper-icon">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                 height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="hero-wrapper-content">
+                            <h6>Heading</h6>
+                            <p class="main-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
+                                dolorum fugit harum maiores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-sec">
+        <div class="container">
+            <div class="product-sec-title">
+                <h4>Featured Product</h4>
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="hero-wrapper-item card-self" style="background-color: #bea30f;">
+                            <div class="hero-wrapper-icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                     height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="hero-wrapper-content">
+                                <h6>Heading</h6>
+                                <p class="main-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                    aliquam dolorum fugit harum maiores.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12 mt-lg-0 mt-md-0 mt-4 position-relative">
+                        <!-- style="background-color: #E893BB;" -->
+                        <div class="card card-one card-self position-relative">
+                            <div class="product-details mt-0">
+                                <div>
+                                    <p class="p-1">
+                                    <div class="d-flex flex-row">
+                                        <div><strong class="font-20">C:\Users\Cheater><span class="ml-1"
+                                                                                            id="cardOne_writer"></span></strong>
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <a href="product.html">
+                            <button class="main-btn float-right btn-position view-product" onclick="typeWriter()">View
+                                Product
+                            </button>
+                        </a>
+                        <div class="card card-two card-self position-relative">
+                            <div class="product-details mt-0">
+                                <div class="product-details-inner">
+                                    <p class="p-1">
+                                    <div class="d-flex flex-row">
+                                        <div><strong class="font-20">Serials </strong></div>
+                                    </div>
+
+                                    <p class="p-1">
+                                    <div class="d-flex flex-row">
+                                        <div><strong class="font-20">HARDDRIVE_1: </strong></div>
+                                        <div>
+                                                <span class="font-20 ml-1" id="hard1_old" style="display: none;">
+                                                </span>
+                                            <span class="font-20 ml-1" id="hard1_new" style="display: none;">
+                                                </span>
+                                        </div>
+                                    </div>
+
+                                    </p>
+                                    <p class="p-1">
+                                    <div class="d-flex flex-row">
+                                        <div><strong class="font-20">HARDDRIVE_2:</strong></div>
+                                        <div>
+                                            <span class="font-20 ml-1" id="hard2_old" style="display: none;"></span>
+                                            <span class="font-20 ml-1" id="hard2_new" style="display: none;"></span>
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p class="p-1">
+                                    <div class="d-flex flex-row">
+                                        <div><strong class="font-20">RAM:</strong></div>
+                                        <div>
+                                            <span class="font-20 ml-1" id="ram_old" style="display: none;"> </span>
+                                            <span class="font-20 ml-1" id="ram_new" style="display: none;"></span>
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p class="p-1">
+                                    <div class="d-flex flex-row">
+                                        <div><strong class="font-20">CPU:</strong></div>
+                                        <div>
+                                            <span class="font-20 ml-1" id="cpu_old" style="display: none;"> </span>
+                                            <span class="font-20 ml-1" id="cpu_new" style="display: none;"></span>
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
+
+                                <a href="product.html">
+                                    <button class="main-btn float-right btn-position view-product"
+                                            onclick="typeWriter()">View Product
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-sec-title mt-5">
+                <h4>Our Products</h4>
+                <ul>
+                    <li>
+                        <button data-target="#all" class="active product-tab">all</button>
+                    </li>
+                    <li>
+                        <button data-target="#active" class="product-tab">active</button>
+                    </li>
+                    <li>
+                        <button data-target="#updating" class="product-tab">updating</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="all" class="product-grid active">
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="active" class="product-grid">
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="updating" class="product-grid">
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box column">
+                    <a href="#" class="product-item">
+                        <div class="product-item-image">
+                            <img src="images/03.webp" alt="Stadium Full Exterior"/>
+                        </div>
+                        <div class="product-item-content">
+                            <div class="product-item-category">
+                                Base Item
+                            </div>
+                            <div class="product-item-title">
+                                Name of Product 1
+                            </div>
+                            <div class="product-item-price">
+                                $57.00
+                            </div>
+                            <div class="button-pill">
+                                <span>Shop Now</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="icons-wrapper">
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+            <div class="icons-wrapper_item">
+                <img src="images/logo.webp" alt=""/>
+            </div>
+        </div>
+    </section>
+    <section class="faq-section">
+        <div class="container">
+            <div class="row">
+                <!-- ***** FAQ Start ***** -->
+                <div class="col-md-6 offset-md-3">
+                    <div class="faq-title text-center pb-3">
+                        <h2>FAQ</h2>
+                    </div>
+                </div>
+                <div class="col-md-6 offset-md-3">
+                    <div class="faq" id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-1">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1"
+                                        data-aria-expanded="true" data-aria-controls="faqCollapse-1"><span
+                                            class="badge">1</span>What is Lorem Ipsum?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the
+                                        1500s, when an unknown printer took a galley
+                                        of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-2">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-2"><span
+                                            class="badge">2</span> Where does it come from?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                                        roots in a piece of classical Latin literature from 45 BC, making it over
+                                        2000 years old.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-3">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-3"><span
+                                            class="badge">3</span>Why do we use it?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        It is a long established fact that a reader will be distracted by the
+                                        readable content of a page when looking at its layout. The point of using
+                                        Lorem Ipsum is that it has a more-or-less normal
+                                        distribution of letters, as opposed to using 'Content here, content here.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-4">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-4"><span
+                                            class="badge">4</span> Where can I get some?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        There are many variations of passages of Lorem Ipsum available, but the
+                                        majority have suffered alteration in some form, by injected humour, or
+                                        randomised words which don't look even slightly
+                                        believable.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-5">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-5"><span
+                                            class="badge">5</span> What is Lorem Ipsum?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        It has survived not only five centuries, but also the leap into electronic
+                                        typesetting, remaining essentially unchanged. It was popularised in the
+                                        1960s with the release of Letraset sheets
+                                        containing
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-6">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-6"><span
+                                            class="badge">6</span> Where does it come from?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+                                        for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum
+                                        et Malorum" by Cicero are also reproduced
+                                        in their exact original form, accompanied by English versions from the 1914
+                                        translation by H. Rackham.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="faqHeading-7">
+                                <div class="mb-0">
+                                    <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7"
+                                        data-aria-expanded="false" data-aria-controls="faqCollapse-7"><span
+                                            class="badge">7</span> Why do we use it?</h5>
+                                </div>
+                            </div>
+                            <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                                        their default model text, and a search for 'lorem ipsum' will uncover many
+                                        web sites still in their infancy.
+                                        Various versions have evolved over the years, sometimes by accident,
+                                        sometimes on purpose (injected humour and the like).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <p class="text-center">Copyright &copy; 2022 <a href="#">Your Company Name</a>. All rights reserved.</p>
+        <!--        <ul class="social_footer_ul">-->
+        <!--            <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>-->
+        <!--            <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>-->
+        <!--            <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>-->
+        <!--            <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>-->
+        <!--        </ul>-->
+    </div>
+</footer>
+
+<script src=" assets/js/jquery.min.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    $(".product-tab").click(function (e) {
+        e.preventDefault();
+        $(".product-tab").removeClass("active");
+        $(this).addClass("active");
+        $(".product-grid").removeClass("active");
+        var ele = $(this).attr("data-target");
+        $(ele).addClass("active");
+    });
+    // var app = document.getElementById('typewriter');
+
+    new Typewriter("#typewriter", {
+        strings: [" adipisicing elit", " adipisicing elit"],
+        autoStart: true,
+        loop: true,
+    });
+
+    let once = true;
+    let offsetRatio = 200;
+
+    $(window).scroll(function (e) {
+        let scrollTop = parseInt($(window).scrollTop()) + offsetRatio;
+        let productOffset = parseInt($('.product-sec').offset().top);
+        if (scrollTop >= productOffset && once === true) {
+            f();
+            once = false;
+        }
+    })
+
+    function f() {
+        new Typewriter("#cardOne_writer", {
+            strings: ["spoof"],
+            autoStart: true,
+            loop: true,
+        });
+        setTimeout(function () {
+            $('.card-two').addClass('card-two-empty');
+            setTimeout(function () {
+                $('.card-two').addClass('showing-animation');
+                initiate('new');
+                typeWriter2();
+                setTimeout(next('typeWriter'), 5000);
+            }, 1200);
+        }, 1500)
+    }
+
+    function changeOffsetRatio() {
+        if ($(window).width() <= 500) {
+            offsetRatio = - 200;
+            console.log(offsetRatio)
+        }
+    }
+
+    changeOffsetRatio();
+
+    $(window).resize(changeOffsetRatio())
+
+    // setTimeout(function () {
+    //     // $('.card-one').css('opacity', '0');
+    //     setTimeout(function () {
+    //         $('.card-two').addClass('card-two-empty');
+    //         setTimeout(function () {
+    //             $('.card-two').addClass('showing-animation');
+    //             initiate('new');
+    //             typeWriter2();
+    //             setTimeout(next('typeWriter'), 5000);
+    //         }, 1200)
+    //     }, 500)
+    //
+    // }, 2700)
+
+    // /* ---- particles.js config ---- */
+    //
+    // particlesJS("particles-js", {
+    //     "particles": {
+    //         "number": {
+    //             "value": 40,
+    //             "density": {
+    //                 "enable": true,
+    //                 "value_area": 800
+    //             }
+    //         },
+    //         "color": {
+    //             "value": "#ffffff"
+    //         },
+    //         "shape": {
+    //             "type": "circle",
+    //             "polygon": {
+    //                 "nb_sides": 5
+    //             }
+    //         },
+    //         "opacity": {
+    //             "value": 0.6,
+    //         },
+    //         "size": {
+    //             "value": 4,
+    //         },
+    //         "line_linked": {
+    //             "enable": true,
+    //             "distance": 200,
+    //             "color": "#ffffff",
+    //             "opacity": 0.4,
+    //             "width": 1
+    //         },
+    //         "move": {
+    //             "enable": true,
+    //             "speed": 10,
+    //             "random": false,
+    //             "straight": false,
+    //             "out_mode": "out",
+    //             "bounce": true,
+    //         }
+    //     }
+    // });
+
+    //Scroll event
+    $(window).scroll(function () {
+        var scrolled = $(window).scrollTop();
+        if (scrolled > 200) $(".go-top").fadeIn("slow");
+        if (scrolled < 200) $(".go-top").fadeOut("slow");
+    });
+
+    //Click event
+    $(".go-top").click(function () {
+        $("html, body").animate({scrollTop: "0"}, 500);
+    });
+
+    $("#dashoard").click(function () {
+        alert("working");
+    });
+</script>
+<script>
+
+    var i = 0, i2 = 0;
+    var j = 0, j2 = 0;
+    var k = 0, k2 = 0;
+    var l = 0, l2 = 0;
+    var hard1 = "ISGGZJ2RVX", hard12 = "ISGGZJ2RVX";
+    var hard2 = "T44VU13FTD", hard22 = "T44VU13FTD";
+    var ram = "41210034499", ram2 = "41210034499";
+    var cpu = "Unknown CPU", cpu2 = "Unknown CPU";
+    var speed = 50, speed2 = 50;
+
+    typeWriter();
+
+    function initiate(type) {
+        if (type == 'old') {
+
+            i = 0;
+            j = 0;
+            k = 0;
+            l = 0;
+            hard1 = "ISGGZJ2RVX";
+            hard2 = "T44VU13FTD";
+            ram = "41210034499";
+            cpu = "Unknown CPU";
+            speed = 50;
+            document.getElementById("hard1_new").innerHTML = '';
+            document.getElementById("hard2_new").innerHTML = '';
+            document.getElementById("ram_new").innerHTML = '';
+            document.getElementById("cpu_new").innerHTML = '';
+        } else {
+            i2 = 0;
+            j2 = 0;
+            k2 = 0;
+            l2 = 0;
+            hard12 = "ISGGZJ2RVX";
+            hard22 = "T44VU13FTD";
+            ram2 = "41210034499";
+            cpu2 = "Unknown CPU";
+            speed2 = 50;
+            document.getElementById("hard1_old").innerHTML = '';
+            document.getElementById("hard2_old").innerHTML = '';
+            document.getElementById("ram_old").innerHTML = '';
+            document.getElementById("cpu_old").innerHTML = '';
+        }
+
+    }
+
+
+    // setTimeout(() => {
+    //     initiate('new');
+    //     typeWriter2();
+    //     setTimeout(next('typeWriter'), 3000)
+    // }, 6000);
+
+    function next(type) {
+
+        if (type == 'typeWriter') {
+            initiate('old');
+            typeWriter();
+            setTimeout(() => {
+                initiate('new')
+                next('typeWriter2')
+            }, 8000)
+        } else {
+            initiate('new')
+            typeWriter2();
+            setTimeout(() => {
+                initiate('old')
+                next('typeWriter')
+            }, 8000)
+        }
+
+
+    }
+
+
+    function typeWriter() {
+        document.getElementById("hard1_old").style.display = "none";
+        document.getElementById("hard1_new").style.display = "block";
+        if (i < hard1.length) {
+            document.getElementById("hard1_new").innerHTML += hard1.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        } else if (i == hard1.length) {
+            document.getElementById("hard2_old").style.display = "none";
+            document.getElementById("hard2_new").style.display = "block";
+            if (j < hard2.length) {
+                document.getElementById("hard2_new").innerHTML += hard2.charAt(j);
+                j++;
+                setTimeout(typeWriter, speed);
+            } else if
+            (j == hard2.length) {
+                document.getElementById("ram_old").style.display = "none";
+                document.getElementById("ram_new").style.display = "block";
+                if (k < ram.length) {
+                    document.getElementById("ram_new").innerHTML += ram.charAt(k);
+                    k++;
+                    setTimeout(typeWriter, speed);
+                } else if
+                (k == ram.length) {
+                    document.getElementById("cpu_old").style.display = "none";
+                    document.getElementById("cpu_new").style.display = "block";
+                    if (l < cpu.length) {
+                        document.getElementById("cpu_new").innerHTML += cpu.charAt(l);
+                        l++;
+                        setTimeout(typeWriter, speed);
+                    }
+                }
+            }
+        }
+    }
+
+    function typeWriter2() {
+        document.getElementById("hard1_new").style.display = "none";
+        document.getElementById("hard1_old").style.display = "block";
+        if (i2 < hard12.length) {
+            document.getElementById("hard1_old").innerHTML += hard12.charAt(i2);
+            i2++;
+            setTimeout(typeWriter2, speed2);
+        } else if (i2 == hard12.length) {
+            document.getElementById("hard2_new").style.display = "none";
+            document.getElementById("hard2_old").style.display = "block";
+            if (j2 < hard22.length) {
+                document.getElementById("hard2_old").innerHTML += hard22.charAt(j2);
+                j2++;
+                setTimeout(typeWriter2, speed2);
+            } else if (j2 == hard22.length) {
+                document.getElementById("ram_new").style.display = "none";
+                document.getElementById("ram_old").style.display = "block";
+                if (k2 < ram2.length) {
+                    document.getElementById("ram_old").innerHTML += ram2.charAt(k2);
+                    k2++;
+                    setTimeout(typeWriter2, speed2);
+                } else if
+                (k2 == ram2.length) {
+                    document.getElementById("cpu_new").style.display = "none";
+                    document.getElementById("cpu_old").style.display = "block";
+                    if (l2 < cpu2.length) {
+                        document.getElementById("cpu_old").innerHTML += cpu2.charAt(l2);
+                        l2++;
+                        setTimeout(typeWriter2, speed2);
+                    }
+                }
+            }
+        }
+    }
+</script>
+</body>
+
+</html>
